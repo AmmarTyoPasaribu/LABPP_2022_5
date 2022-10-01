@@ -25,3 +25,5 @@ print(genap, "Angka Genap")
 print(ganjil, "Angka Ganjil")
 print(positif, "Angka Positif")
 print(negatif, "Angka Negatif")
+
+
