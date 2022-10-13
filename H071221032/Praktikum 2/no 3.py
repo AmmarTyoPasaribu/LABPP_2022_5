@@ -1,4 +1,5 @@
 angka = input("Input 5 bilangan bulat dipisahkan oleh spasi: ").split()
+print(angka)
 try:
     angka = [int(int_angka) for int_angka in angka]
 except(ValueError):
