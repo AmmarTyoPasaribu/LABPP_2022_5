@@ -1,5 +1,3 @@
-import time
-
 def get_detail():
     global detail
     print("Data anda adalah")
