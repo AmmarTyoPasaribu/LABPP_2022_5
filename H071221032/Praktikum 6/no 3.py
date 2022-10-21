@@ -1,10 +1,9 @@
-filename = input() + ".txt"
-n = int(input())
-
-a = open(filename, "w+")
-
-
 try:
+    filename = input() + ".txt"
+    n = int(input())
+
+    a = open(filename, "w+")
+
     a.write("+" + "-"*22 + "+" + "-"*12 + "+" + "-"*10 + "+\n")
     a.write("|" + " Nama" + " "*17 + "|" + " NIM" + " "*8 + "|" + " Angkatan" + " " + "|" + "\n")
     a.write("+" + "-"*22 + "+" + "-"*12 + "+" + "-"*10 + "+\n")
